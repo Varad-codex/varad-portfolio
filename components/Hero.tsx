@@ -362,14 +362,14 @@ export function Hero() {
               delay: 0.3,
               ease: [0.21, 1.11, 0.81, 0.99],
             }}
-            className="hidden lg:flex items-center justify-center"
+            className="flex items-center justify-center mt-8 lg:mt-0"
           >
             <div className="relative animate-float">
 
               {/* Gradient Ring */}
 
               <div
-                className="w-72 h-72 rounded-full p-1 relative"
+                className="w-48 h-48 sm:w-56 sm:h-56 lg:w-72 lg:h-72 rounded-full p-1 relative"
                 style={{
                   background:
                     'linear-gradient(135deg, #2563eb, #7c3aed, #ec4899)',
