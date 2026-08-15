@@ -6,6 +6,7 @@ import { PageNavigation } from '@/components/PageNavigation';
 export default function SkillsPage() {
   return (
     <>
+      <Navbar />
       <main className="pt-16">
         <Skills />
 
