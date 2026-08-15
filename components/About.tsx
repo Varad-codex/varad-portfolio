@@ -193,9 +193,7 @@ export function About() {
                   style={{
                     background:
                       'linear-gradient(135deg, rgba(37,99,235,0.12), rgba(236,72,153,0.10))',
-
                     color: '#60a5fa',
-
                     border:
                       '1px solid rgba(37,99,235,0.20)',
                   }}
@@ -228,9 +226,7 @@ export function About() {
                     style={{
                       background:
                         'rgba(37,99,235,0.10)',
-
                       color: '#60a5fa',
-
                       border:
                         '1px solid rgba(37,99,235,0.15)',
                     }}
@@ -274,9 +270,7 @@ export function About() {
                     style={{
                       background:
                         'rgba(124,58,237,0.10)',
-
                       color: '#a78bfa',
-
                       border:
                         '1px solid rgba(124,58,237,0.15)',
                     }}
@@ -295,6 +289,172 @@ export function About() {
                   Sou.S.M.Lohia Jr. College /
                   Maharashtra State Board
                 </p>
+
+              </div>
+
+
+              {/* ─── Academic Achievements ─────────────────────── */}
+
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+
+                {/* Current CGPA */}
+
+                <div
+                  className="rounded-xl p-4"
+                  style={{
+                    background:
+                      'linear-gradient(135deg, rgba(37,99,235,0.08), rgba(124,58,237,0.08))',
+                    border:
+                      '1px solid rgba(99,102,241,0.15)',
+                  }}
+                >
+                  <p
+                    className="text-xs font-semibold uppercase tracking-wider"
+                    style={{
+                      color: 'var(--text-muted)',
+                    }}
+                  >
+                    Current CGPA
+                  </p>
+
+                  <p
+                    className="font-bold text-lg mt-1"
+                    style={{
+                      color: 'var(--text-primary)',
+                    }}
+                  >
+                    8.0
+                  </p>
+
+                  <p
+                    className="text-xs mt-1"
+                    style={{
+                      color: 'var(--text-secondary)',
+                    }}
+                  >
+                    2nd Year
+                  </p>
+                </div>
+
+
+                {/* HSC */}
+
+                <div
+                  className="rounded-xl p-4"
+                  style={{
+                    background:
+                      'linear-gradient(135deg, rgba(37,99,235,0.08), rgba(124,58,237,0.08))',
+                    border:
+                      '1px solid rgba(99,102,241,0.15)',
+                  }}
+                >
+                  <p
+                    className="text-xs font-semibold uppercase tracking-wider"
+                    style={{
+                      color: 'var(--text-muted)',
+                    }}
+                  >
+                    HSC
+                  </p>
+
+                  <p
+                    className="font-bold text-lg mt-1"
+                    style={{
+                      color: 'var(--text-primary)',
+                    }}
+                  >
+                    72.33%
+                  </p>
+
+                  <p
+                    className="text-xs mt-1"
+                    style={{
+                      color: 'var(--text-secondary)',
+                    }}
+                  >
+                    2024
+                  </p>
+                </div>
+
+
+                {/* MHT-CET */}
+
+                <div
+                  className="rounded-xl p-4"
+                  style={{
+                    background:
+                      'linear-gradient(135deg, rgba(124,58,237,0.08), rgba(236,72,153,0.08))',
+                    border:
+                      '1px solid rgba(124,58,237,0.15)',
+                  }}
+                >
+                  <p
+                    className="text-xs font-semibold uppercase tracking-wider"
+                    style={{
+                      color: 'var(--text-muted)',
+                    }}
+                  >
+                    MHT-CET
+                  </p>
+
+                  <p
+                    className="font-bold text-lg mt-1"
+                    style={{
+                      color: 'var(--text-primary)',
+                    }}
+                  >
+                    82.69
+                  </p>
+
+                  <p
+                    className="text-xs mt-1"
+                    style={{
+                      color: 'var(--text-secondary)',
+                    }}
+                  >
+                    Percentile • 2024
+                  </p>
+                </div>
+
+
+                {/* SSC */}
+
+                <div
+                  className="rounded-xl p-4"
+                  style={{
+                    background:
+                      'linear-gradient(135deg, rgba(16,185,129,0.08), rgba(37,99,235,0.08))',
+                    border:
+                      '1px solid rgba(16,185,129,0.15)',
+                  }}
+                >
+                  <p
+                    className="text-xs font-semibold uppercase tracking-wider"
+                    style={{
+                      color: 'var(--text-muted)',
+                    }}
+                  >
+                    SSC
+                  </p>
+
+                  <p
+                    className="font-bold text-lg mt-1"
+                    style={{
+                      color: 'var(--text-primary)',
+                    }}
+                  >
+                    92.00%
+                  </p>
+
+                  <p
+                    className="text-xs mt-1"
+                    style={{
+                      color: 'var(--text-secondary)',
+                    }}
+                  >
+                    2022
+                  </p>
+                </div>
 
               </div>
 
