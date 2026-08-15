@@ -14,10 +14,10 @@ const experiences = [
   {
     role: 'Front-end Developer',
     org: 'Dimension X Hackathon • Kolhapur',
-    period: '11 July 2026 - 10 Aug 2026',
+    period: '16 Jan 2026',
     type: 'Hackathon',
     description:
-      'Built responsive web components using React, TypeScript, and Tailwind CSS. Integrated REST APIs and backend endpoints with Node.js and PostgreSQL. Collaborated with team members to deliver high-quality features.',
+      'Developed a web application using React and Tailwind CSS. Implemented responsive design and interactive UI components. Collaborated with a team to deliver a functional prototype within the hackathon timeframe.',
     tags: ['React', 'JavaScript', 'Tailwind CSS'],
   },
 ];

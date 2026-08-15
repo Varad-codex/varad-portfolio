@@ -38,7 +38,7 @@ export function Footer() {
 
     {
       label: 'Email',
-      href: 'mailto:varadwakarekar85@gmail.com',
+      href: 'https://mail.google.com/mail/?view=cm&fs=1&to=varadwakarekar85@gmail.com',
       icon: (
         <svg
           width="18"

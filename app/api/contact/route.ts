@@ -5,7 +5,15 @@ export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
 
-    const { name, email, message } = body;
+    const name = typeof body.name === 'string' ? body.name.trim() : '';
+    const email =
+      typeof body.email === 'string'
+        ? body.email.trim().toLowerCase()
+        : '';
+    const message =
+      typeof body.message === 'string'
+        ? body.message.trim()
+        : '';
 
     // Validate required fields
     if (!name || !email || !message) {
@@ -28,7 +36,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Validate message length
-    if (message.trim().length < 10) {
+    if (message.length < 10) {
       return NextResponse.json(
         {
           error: 'Message must be at least 10 characters.',
@@ -40,9 +48,9 @@ export async function POST(request: NextRequest) {
     // Save contact message to PostgreSQL
     const contact = await prisma.contact.create({
       data: {
-        name: name.trim(),
-        email: email.trim().toLowerCase(),
-        message: message.trim(),
+        name,
+        email,
+        message,
       },
     });
 
