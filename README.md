@@ -2,6 +2,10 @@
 
 A modern, responsive personal portfolio website showcasing my skills, projects, experience, certifications, and contact information.
 
+## 🌐 Live Website
+
+👉 **[Visit My Portfolio](https://varad-portfolio-six.vercel.app/)**
+
 ## 🚀 Tech Stack
 
 ### Frontend
