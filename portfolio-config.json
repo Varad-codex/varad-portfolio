@@ -1,0 +1,188 @@
+{
+  "personal": {
+    "fullName": "Varad Wakarekar",
+    "initials": "VW",
+    "headline": "Hi, I'm Varad Wakarekar",
+    "typewriterRoles": [
+      "Full Stack Developer",
+      "CSE Student",
+      "AI Enthusiast",
+      "Problem Solver"
+    ],
+    "tagline": "Building full-stack web applications with React, Node/Express, and PostgreSQL. Passionate about clean code and great user experiences.",
+    "bioParagraphs": [
+      "I'm a Computer Science student with a strong foundation in C, C++, and Python, and solid coursework in Object-Oriented Programming and Operating Systems.",
+      "Currently, I'm focused on the MERN/full-stack ecosystem — building production-grade apps with React, Node.js/Express, and PostgreSQL. I love turning complex problems into clean, elegant solutions.",
+      "When I'm not coding, I enjoy exploring new technologies, contributing to open-source, and deepening my understanding of software engineering principles."
+    ],
+    "traitTags": [
+      "Problem Solver",
+      "Fast Learner",
+      "Team Player",
+      "Full Stack Developer"
+    ],
+    "avatarImagePath": "/Varad.jpeg"
+  },
+  "socials": {
+    "github": "https://github.com/Varad-codex",
+    "linkedin": "https://www.linkedin.com/in/varad-wakarekar/",
+    "email": "varadwakarekar85@gmail.com",
+    "twitter": "@your_handle",
+    "resumePdfPath": "/resume.pdf"
+  },
+  "education": {
+    "degree": "Bachelor of Engineering — Computer Science",
+    "collegeName": "Dr. D.Y.Patil Pratishthan's College of Engineering / Shivaji University",
+    "period": "2024 – 2028",
+    "coursework": [
+      "Data Structures",
+      "OOP",
+      "Operating Systems",
+      "DBMS",
+      "Computer Networks",
+      "Web Development"
+    ]
+  },
+  "heroStats": [
+    {
+      "value": "3+",
+      "label": "Projects Built"
+    },
+    {
+      "value": "1+",
+      "label": "Years Full Stack"
+    },
+    {
+      "value": "5+",
+      "label": "Tech Stack"
+    },
+    {
+      "value": "1",
+      "label": "Capstone Project"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "items": [
+        "JavaScript (ES6+)",
+        "TypeScript",
+        "Python",
+        "C++",
+        "HTML5/CSS3",
+        "SQL"
+      ]
+    },
+    {
+      "category": "Frontend",
+      "items": [
+        "React.js",
+        "Next.js 14",
+        "Tailwind CSS",
+        "Framer Motion",
+        "REST APIs"
+      ]
+    },
+    {
+      "category": "Backend",
+      "items": [
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "Prisma ORM",
+        "MongoDB",
+        "RESTful APIs"
+      ]
+    },
+    {
+      "category": "Tools & Concepts",
+      "items": [
+        "Git & GitHub",
+        "Vercel",
+        "OOP",
+        "Responsive Design"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Project 1 Title",
+      "description": "Brief description of Project 1. Explain what it does, the technologies used, and key features.",
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "PostgreSQL"
+      ],
+      "liveUrl": "https://example.com",
+      "githubUrl": "https://github.com/your-username/project-1",
+      "screenshots": []
+    },
+    {
+      "title": "Project 2 Title",
+      "description": "Brief description of Project 2. Explain what it does, the technologies used, and key features.",
+      "tags": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ],
+      "liveUrl": "https://example.com",
+      "githubUrl": "https://github.com/your-username/project-2",
+      "screenshots": []
+    },
+    {
+      "title": "Project 3 Title",
+      "description": "Brief description of Project 3. Explain what it does, the technologies used, and key features.",
+      "tags": [
+        "Python",
+        "Flask",
+        "PostgreSQL",
+        "Tailwind CSS"
+      ],
+      "liveUrl": "https://example.com",
+      "githubUrl": "https://github.com/your-username/project-3",
+      "screenshots": []
+    }
+  ],
+  "experience": [
+    {
+      "role": "Web Developer",
+      "company": "Thiranex",
+      "period": "11 July 2026 - 10 Aug 2026",
+      "type": "Internship",
+      "location": "Kolhapur",
+      "badgeColor": "indigo",
+      "description": [
+        "Built responsive web components using React, TypeScript, and Tailwind CSS.",
+        "Integrated REST APIs and backend endpoints with Node.js and PostgreSQL.",
+        "Collaborated with cross-functional team members to deliver features on schedule."
+      ],
+      "tags": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Google Cloud",
+      "issuer": "Simplilearn",
+      "date": "2024",
+      "credentialUrl": "https://example.com/certificate",
+      "skills": [
+        "React",
+        "Node.js",
+        "Web Security"
+      ]
+    }
+  ],
+  "settings": {
+    "adminPassword": "Varad@123",
+    "resendApiKey": "re_123456789",
+    "contactReceiveEmail": "varadwakarekar85@gmail.com",
+    "siteUrl": "https://yourportfolio.vercel.app"
+  }
+}
