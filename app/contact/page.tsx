@@ -13,8 +13,8 @@ export default function ContactPage() {
 
         <PageNavigation
           previous={{
-            label: 'Testimonials',
-            href: '/testimonials',
+            label: 'Certifications',
+            href: '/certifications',
           }}
           next={{
             label: 'Back to Home',

@@ -17,8 +17,8 @@ export default function CertificationsPage() {
             href: '/experience',
           }}
           next={{
-            label: 'Testimonials',
-            href: '/testimonials',
+            label: 'Contact',
+            href: '/contact',
           }}
         />
       </main>

@@ -374,7 +374,7 @@ export function Certifications() {
 
         {/* Section Header */}
         <SectionHeader
-          number="05"
+          number="06"
           title="Certifications"
           heading="Certifications & Achievements"
           subtitle="Professional certifications and courses that showcase my continuous learning."

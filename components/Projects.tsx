@@ -572,7 +572,7 @@ export function Projects() {
         ================================================= */}
 
         <SectionHeader
-          number="03"
+          number="04"
           title="Projects"
           heading='Selected Projects'
           subtitle="A selection of projects I've built to solve real problems and explore new technologies."

@@ -2,11 +2,6 @@
 
 import { motion } from 'framer-motion';
 
-const traitTags = [
-  'Problem Solver',
-  'Quick Learner',
-  'Adaptable',
-];
 
 export function About() {
   return (
@@ -65,7 +60,7 @@ export function About() {
 
         {/* ─── Main Content ──────────────────────────────────────── */}
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
 
           {/* ─── Left: Bio Card ─────────────────────────────────── */}
 
@@ -84,7 +79,7 @@ export function About() {
             transition={{
               duration: 0.6,
             }}
-            className="card p-6 flex flex-col justify-between"
+            className="card p-6"
           >
             <div className="flex flex-col gap-4">
 
@@ -136,24 +131,6 @@ export function About() {
 
             </div>
 
-
-            {/* ─── Trait Tags ────────────────────────────────────── */}
-
-            <div
-              className="flex flex-wrap gap-7 mt-6 pt-6 border-t"
-              style={{
-                borderColor: 'var(--border)',
-              }}
-            >
-              {traitTags.map((tag) => (
-                <span
-                  key={tag}
-                  className="skill-pill"
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
 
           </motion.div>
 

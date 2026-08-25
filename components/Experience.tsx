@@ -68,7 +68,7 @@ export function Experience() {
         {/* ─── Section Header ───────────────────────────────────── */}
 
         <SectionHeader
-          number="04"
+          number="05"
           title="Journey"
           heading='Experience'
           subtitle="My professional experience, internships, and hands-on development work."

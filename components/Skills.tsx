@@ -62,7 +62,7 @@ export function Skills() {
         {/* ─── Section Header ───────────────────────────────────── */}
 
         <SectionHeader
-          number="02"
+          number="03"
           title="SKILLS"
           heading="Technologies I Work With"
           subtitle="A collection of technologies, frameworks, and tools I use to build modern applications."

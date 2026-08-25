@@ -202,11 +202,10 @@ export function Hero() {
               <span>{displayText}</span>
 
               <span
-                className={`w-0.5 h-6 rounded-full transition-opacity ${
-                  showCursor
-                    ? 'opacity-100'
-                    : 'opacity-0'
-                }`}
+                className={`w-0.5 h-6 rounded-full transition-opacity ${showCursor
+                  ? 'opacity-100'
+                  : 'opacity-0'
+                  }`}
                 style={{
                   background:
                     'linear-gradient(180deg, #2563eb, #ec4899)',
@@ -387,62 +386,10 @@ export function Hero() {
                 />
               </div>
 
-
-              {/* Floating Badge: Projects */}
-
-              <motion.div
-                className="absolute -bottom-4 -left-4 card px-4 py-2 text-sm font-medium"
-                animate={{
-                  y: [0, -6, 0],
-                }}
-                transition={{
-                  duration: 3,
-                  repeat: Infinity,
-                  delay: 0.5,
-                }}
-              >
-                <span className="gradient-text font-bold text-lg">
-                  2+
-                </span>
-
-                <span
-                  className="ml-1"
-                  style={{
-                    color: 'var(--text-muted)',
-                  }}
-                >
-                  Projects
-                </span>
-              </motion.div>
-
-
-              {/* Floating Badge: Stack */}
-
-              <motion.div
-                className="absolute -top-4 -right-4 card px-4 py-2 text-sm font-medium"
-                animate={{
-                  y: [0, 6, 0],
-                }}
-                transition={{
-                  duration: 3,
-                  repeat: Infinity,
-                  delay: 1,
-                }}
-              >
-                <span
-                  style={{
-                    color: 'var(--text-secondary)',
-                  }}
-                >
-                  Web Dev ⚡
-                </span>
-              </motion.div>
-
             </div>
           </motion.div>
 
         </div>
-
 
         {/* ─── Explore / Page Navigation ─────────────────────────────── */}
 
