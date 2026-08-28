@@ -16,7 +16,6 @@ const stats = [
   { value: '2+', label: 'Projects Built' },
   { value: '1+', label: 'Years Full Stack' },
   { value: '5+', label: 'Tech Stack' },
-  { value: '1', label: 'Capstone Project' },
 ];
 
 export function Hero() {
