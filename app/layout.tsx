@@ -62,10 +62,10 @@ export const metadata: Metadata = {
   creator: 'Varad Wakarekar',
 
   openGraph: {
-    title: 'Varad Wakarekar — Software Developer',
+    title: 'Varad Wakarekar — Software Engineer',
 
     description:
-      'Personal portfolio showcasing full-stack applications, projects, experience, certifications, and testimonials.',
+      'Personal portfolio showcasing full-stack applications, projects, experience, and certifications.',
 
     type: 'website',
 
@@ -80,7 +80,7 @@ export const metadata: Metadata = {
     title: 'Varad Wakarekar — Software Developer',
 
     description:
-      'Personal portfolio showcasing full-stack applications, projects, experience, certifications, and testimonials.',
+      'Personal portfolio showcasing full-stack applications, projects, experience, and certifications.',
   },
 
   robots: {

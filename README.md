@@ -38,7 +38,6 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 - Certificate Quick View
 - Contact form
 - PostgreSQL database integration
-- Email integration with Resend
 
 ## 📂 Project Structure
 

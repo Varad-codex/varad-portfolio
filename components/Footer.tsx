@@ -97,7 +97,7 @@ export function Footer() {
                 color: 'var(--text-muted)',
               }}
             >
-              Building full-stack web applications with ❤️
+              Building full-stack web applications with 🤍
             </p>
           </div>
 
